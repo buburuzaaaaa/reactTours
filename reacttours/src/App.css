@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #050505;
+}
+
+* {
+  font-family: tommy;
+}
+
+@font-face {
+  font-family: tommy;
+  src: url(./tommy.otf);
+}
+
+.app-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-banner {
+  background-color: #ffffff;
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.image-container {
+  flex: 1;
+  height: 324px;
+}
+
+.image-container img {
+  height: 324px;
+  width: 25rem;
+  object-fit: cover;
+  border-radius: 8px 0 0 8px;
+}
+
+.content-container {
+  flex: 2;
+  padding: 20px;
+  width: 30rem;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: .8em;
+  font-weight: 100;
+}
+
+.price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #8a63d1;
+}
+
+.refresh-button {
+  background-color: #2a2a2a;
+  color: white;
+  width: 40rem;
+  border-radius: .5em;
+  height: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.not {
+  background-color: #2a2a2a;
+  color: #ddd;
+  border-radius: .5em;
+  height: 1.5rem;
+  width: 12rem;
+}
